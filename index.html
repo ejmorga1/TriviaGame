@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Who Played These Characters?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Yatra+One" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+    <link rel="icon" 
+      type="image/png" 
+      href="assets/images/film-strip-md.png">
+</head>
+
+<body>
+    <h1>
+        Who Played These Characters?!
+    </h1>
+    <div class="start">
+        <button id="startButton">Start</button>
+    </div>
+    <div class="gameContainer">
+        <p>Time Remaining:
+            <span id="time"></span> Seconds</p>
+        <p class="question"></p>
+        <div class="answers">
+            <p><button class="answer" id="one"></button></p>
+            <p><button class="answer" id="two"></button></p>
+            <p><button class="answer" id="three"></button></p>
+            <p><button class="answer" id="four"></button></p>
+        </div>
+    </div>
+    <div id="end">
+        <p>You answered <span id="score"></span> out of 8 correctly</p>
+    </div>
+</body>
+
+</html>
